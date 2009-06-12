@@ -8,6 +8,8 @@ Version: %{version}
 Release: %{release}
 # taken from debian, as there is no upstream tarball
 Source0: %{name}_%{version}.orig.tar.gz
+# patch taken from debian
+Patch0: oggfwd-0.2-overlinking.patch 
 License: GPLv2
 Group: Video
 Url: http://v2v.cc/~j/oggfwd/
@@ -18,6 +20,7 @@ Simple icecast2 client that send the stream read from stdin.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 make
