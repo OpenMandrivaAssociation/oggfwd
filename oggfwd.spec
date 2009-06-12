@@ -9,12 +9,13 @@ Release: %{release}
 # taken from debian, as there is no upstream tarball
 Source0: %{name}_%{version}.orig.tar.gz
 License: GPLv2
-Group: TODO
+Group: Video
 Url: http://v2v.cc/~j/oggfwd/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
-TODO
+Simple icecast2 client that send the stream read from stdin.
+
 %prep
 %setup -q
 
