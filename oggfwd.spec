@@ -14,7 +14,8 @@ License: GPLv2
 Group: Video
 Url: http://v2v.cc/~j/oggfwd/
 BuildRoot: %{_tmppath}/%{name}-buildroot
-
+BuildRequires: libshout-devel
+ 
 %description
 Simple icecast2 client that send the stream read from stdin.
 
