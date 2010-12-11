@@ -1,6 +1,6 @@
 %define name oggfwd
 %define version 0.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Simple icecast 2 client to stream a ogg stream from stdin
 Name: %{name}
