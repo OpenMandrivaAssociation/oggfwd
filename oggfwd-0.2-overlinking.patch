@@ -1,0 +1,13 @@
+Index: Makefile
+===================================================================
+--- Makefile
++++ Makefile	2009-06-12 18:04:26.000000000 +0200
+@@ -15,7 +15,7 @@
+ PTHREADFLAGS ?=	-pthread
+ INCLUDEFLAGS ?=	-I${PREFIX}/include
+ LINKFLAGS ?=	-L${PREFIX}/lib
+-LINKFLAGS +=    -lshout -logg -lvorbis -ltheora -lspeex
++LINKFLAGS +=    -lshout
+ 
+ all: ${PROG}
+ 
