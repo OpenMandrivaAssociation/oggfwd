@@ -40,3 +40,20 @@ rm -rf $RPM_BUILD_ROOT
 %doc README ChangeLog
 %_bindir/oggfwd
 
+
+
+%changelog
+* Tue May 03 2011 Michael Scherer <misc@mandriva.org> 0.2-3mdv2011.0
++ Revision: 664793
+- rebuild old package
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - the mass rebuild of 2010.0 packages
+
+* Sat Jun 13 2009 Michael Scherer <misc@mandriva.org> 0.2-1mdv2010.0
++ Revision: 385645
+- add patch for overlinking, taken from debian
+- add description and group
+- import oggfwd
+
+
