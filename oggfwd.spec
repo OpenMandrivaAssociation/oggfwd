@@ -12,7 +12,7 @@ Source0: %{name}_%{version}.orig.tar.gz
 Patch0: oggfwd-0.2-overlinking.patch 
 License: GPLv2
 Group: Video
-Url: http://v2v.cc/~j/oggfwd/
+Url: https://v2v.cc/~j/oggfwd/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libshout-devel
  
